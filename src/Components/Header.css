@@ -1,0 +1,40 @@
+
+
+.active{
+  color: #f7c94b;
+  font-weight: bold;
+}
+
+.login-btn{
+    font-size: 1rem;
+    color: aliceblue;
+    padding: 1rem 4rem;
+    background: linear-gradient(90deg, #6e4b1a, #a88a61);
+}
+
+.container-socials div{
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.5s;
+}
+
+.container-socials div:hover{
+    transform: scale(1.2);
+}
+
+.icon-gmail:hover{
+    background-color: #db4a39;
+}
+
+.icon-facebook:hover{
+    background-color: #3b5998;
+}
+
+.icon-instagram:hover{
+    background: linear-gradient(90deg, #f9ce34, #ee2a7b, #6228d7);
+}
